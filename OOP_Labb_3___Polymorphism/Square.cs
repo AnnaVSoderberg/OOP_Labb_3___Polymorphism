@@ -13,12 +13,11 @@ namespace OOP_Labb_3___Polymorphism
 
         public Square ()
         {
-            _height = 3;
-            _width = 12;
+            _height = 6;
         }
         public override double Area()
         {
-            return result = _height * _width;
+            return result = _height * _height;
         }
     }
 }
