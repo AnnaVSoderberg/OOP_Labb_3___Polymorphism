@@ -9,7 +9,6 @@ namespace OOP_Labb_3___Polymorphism
     internal class Square : Geometry
     {
         protected double _height { get; set; }
-        protected double _width { get; set; }
 
         public Square ()
         {
@@ -17,7 +16,7 @@ namespace OOP_Labb_3___Polymorphism
         }
         public override double Area()
         {
-            return result = _height * _height;
+            return  _height * _height;
         }
     }
 }

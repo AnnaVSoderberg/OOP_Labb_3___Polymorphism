@@ -17,7 +17,7 @@ namespace OOP_Labb_3___Polymorphism
 
         public override double Area() 
         {
-            return result = _radius * _radius * Math.PI; 
+            return _radius * _radius * Math.PI; 
         }
     }
 }

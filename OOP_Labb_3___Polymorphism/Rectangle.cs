@@ -19,7 +19,7 @@ namespace OOP_Labb_3___Polymorphism
 
         public override double Area()
         {
-            return result = _height*_width;
+            return _height*_width;
         }
     }
 }
