@@ -8,7 +8,6 @@ namespace OOP_Labb_3___Polymorphism
 {
     internal class Geometry
     {
-        protected double result;
         public virtual double Area()
         {
             return result;
